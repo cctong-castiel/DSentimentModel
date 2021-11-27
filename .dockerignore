@@ -1,0 +1,6 @@
+**/__pycache__
+*.ipynb*
+*.git
+*log/*.log
+README.md
+app/test/*

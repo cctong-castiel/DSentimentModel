@@ -1,0 +1,6 @@
+.env
+__pycache__
+*.ipynb*
+*.git
+*log/*.log
+test/*

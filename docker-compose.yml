@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  senmodel:
+    image: dsen
+    build: .
+    ports:
+      - 721:721
+    restart: always
+    shm_size: 1G
