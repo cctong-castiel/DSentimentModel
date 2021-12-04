@@ -1,0 +1,985 @@
+2021-12-04 11:03:10,863 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8000
+2021-12-04 11:03:10,873 - sanic.root - INFO - Starting worker [7270]
+2021-12-04 11:04:00,022 - sanic.root - INFO - Stopping worker [7270]
+2021-12-04 11:04:00,024 - sanic.root - INFO - Server Stopped
+2021-12-04 11:04:02,458 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8000
+2021-12-04 11:04:02,465 - sanic.root - INFO - Starting worker [7348]
+2021-12-04 11:04:31,393 - sanic.root - INFO - Stopping worker [7348]
+2021-12-04 11:04:31,395 - sanic.root - INFO - Server Stopped
+2021-12-04 11:04:31,930 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8000
+2021-12-04 11:04:31,937 - sanic.root - INFO - Starting worker [7363]
+2021-12-04 11:08:13,321 - sanic.root - INFO - Stopping worker [7363]
+2021-12-04 11:08:13,322 - sanic.root - INFO - Server Stopped
+2021-12-04 11:11:36,029 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8000
+2021-12-04 11:11:36,036 - sanic.root - INFO - Starting worker [7539]
+2021-12-04 11:13:40,017 - sanic.access - INFO - 
+2021-12-04 11:13:45,022 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:14:07,386 - sanic.root - INFO - Stopping worker [7539]
+2021-12-04 11:14:07,387 - sanic.root - INFO - Server Stopped
+2021-12-04 11:14:08,218 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:14:08,227 - sanic.root - INFO - Starting worker [7595]
+2021-12-04 11:14:15,960 - sanic.access - INFO - 
+2021-12-04 11:14:20,963 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:16:03,458 - sanic.access - INFO - 
+2021-12-04 11:16:08,462 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:30:37,323 - sanic.root - INFO - Stopping worker [7595]
+2021-12-04 11:30:37,326 - sanic.root - INFO - Server Stopped
+2021-12-04 11:30:38,191 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:30:38,200 - sanic.root - INFO - Starting worker [7727]
+2021-12-04 11:31:25,111 - root - INFO - prepare config
+2021-12-04 11:31:25,112 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:31:25,153 - root - INFO - AdRemover
+2021-12-04 11:31:26,393 - sanic.access - INFO - 
+2021-12-04 11:31:26,394 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.283 seconds
+2021-12-04 11:31:31,399 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:32:27,751 - sanic.root - INFO - Stopping worker [7727]
+2021-12-04 11:32:27,752 - sanic.root - INFO - Server Stopped
+2021-12-04 11:32:28,298 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:32:28,309 - sanic.root - INFO - Starting worker [7765]
+2021-12-04 11:32:50,077 - sanic.root - INFO - Stopping worker [7765]
+2021-12-04 11:32:50,079 - sanic.root - INFO - Server Stopped
+2021-12-04 11:32:50,590 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:32:50,596 - sanic.root - INFO - Starting worker [7777]
+2021-12-04 11:32:53,875 - root - INFO - prepare config
+2021-12-04 11:32:53,876 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:32:53,914 - root - INFO - AdRemover
+2021-12-04 11:32:54,945 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = next(sent_pipe(l_regex, p_data))
+TypeError: 'list' object is not an iterator
+2021-12-04 11:32:54,947 - sanic.access - INFO - 
+2021-12-04 11:32:54,947 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.072 seconds
+2021-12-04 11:32:59,951 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:33:30,622 - sanic.root - INFO - Stopping worker [7777]
+2021-12-04 11:33:30,625 - sanic.root - INFO - Server Stopped
+2021-12-04 11:33:31,352 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:33:31,359 - sanic.root - INFO - Starting worker [7804]
+2021-12-04 11:33:33,647 - root - INFO - prepare config
+2021-12-04 11:33:33,647 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:33:33,685 - root - INFO - AdRemover
+2021-12-04 11:33:34,686 - sanic.access - INFO - 
+2021-12-04 11:33:34,687 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.040 seconds
+2021-12-04 11:33:39,691 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:34:10,682 - root - INFO - prepare config
+2021-12-04 11:34:10,682 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:34:10,683 - root - INFO - AdRemover
+2021-12-04 11:34:11,662 - sanic.access - INFO - 
+2021-12-04 11:34:11,663 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.981 seconds
+2021-12-04 11:34:16,668 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:35:16,217 - root - INFO - prepare config
+2021-12-04 11:35:16,218 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:35:16,219 - root - INFO - AdRemover
+2021-12-04 11:35:17,386 - sanic.access - INFO - 
+2021-12-04 11:35:17,387 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.170 seconds
+2021-12-04 11:35:22,391 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:36:15,482 - root - INFO - prepare config
+2021-12-04 11:36:15,483 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:36:15,484 - root - INFO - AdRemover
+2021-12-04 11:36:16,474 - sanic.access - INFO - 
+2021-12-04 11:36:16,474 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.992 seconds
+2021-12-04 11:36:21,474 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:37:10,338 - sanic.root - INFO - Stopping worker [7804]
+2021-12-04 11:37:10,339 - sanic.root - INFO - Server Stopped
+2021-12-04 11:37:11,020 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:37:11,030 - sanic.root - INFO - Starting worker [7921]
+2021-12-04 11:38:55,714 - sanic.root - INFO - Stopping worker [7921]
+2021-12-04 11:38:55,716 - sanic.root - INFO - Server Stopped
+2021-12-04 11:38:56,248 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:38:56,255 - sanic.root - INFO - Starting worker [7937]
+2021-12-04 11:39:01,501 - root - INFO - prepare config
+2021-12-04 11:39:01,501 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:39:01,540 - root - INFO - AdRemover
+2021-12-04 11:39:02,727 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 118, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 94, in regex_sentiment
+    print(f"sent_value: {sent_value}")
+NameError: name 'sent_value' is not defined
+2021-12-04 11:39:02,728 - sanic.access - INFO - 
+2021-12-04 11:39:02,729 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.228 seconds
+2021-12-04 11:39:07,730 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:39:15,246 - root - INFO - prepare config
+2021-12-04 11:39:15,246 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:39:15,247 - root - INFO - AdRemover
+2021-12-04 11:39:16,427 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 118, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 94, in regex_sentiment
+    print(f"sent_value: {sent_value}")
+NameError: name 'sent_value' is not defined
+2021-12-04 11:39:16,429 - sanic.access - INFO - 
+2021-12-04 11:39:16,429 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.183 seconds
+2021-12-04 11:39:21,434 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:39:50,470 - sanic.root - INFO - Stopping worker [7937]
+2021-12-04 11:39:50,471 - sanic.root - INFO - Server Stopped
+2021-12-04 11:39:51,000 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:39:51,010 - sanic.root - INFO - Starting worker [7981]
+2021-12-04 11:39:53,573 - sanic.root - INFO - Stopping worker [7981]
+2021-12-04 11:39:53,575 - sanic.root - INFO - Server Stopped
+2021-12-04 11:39:54,119 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:39:54,129 - sanic.root - INFO - Starting worker [7990]
+2021-12-04 11:39:56,156 - root - INFO - prepare config
+2021-12-04 11:39:56,156 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:39:56,195 - root - INFO - AdRemover
+2021-12-04 11:39:57,191 - sanic.access - INFO - 
+2021-12-04 11:39:57,192 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.035 seconds
+2021-12-04 11:40:02,202 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:42:03,275 - sanic.root - INFO - Stopping worker [7990]
+2021-12-04 11:42:03,276 - sanic.root - INFO - Server Stopped
+2021-12-04 11:42:03,869 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:42:03,879 - sanic.root - INFO - Starting worker [8024]
+2021-12-04 11:42:06,244 - root - INFO - prepare config
+2021-12-04 11:42:06,244 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:42:06,282 - root - INFO - AdRemover
+2021-12-04 11:42:07,336 - sanic.access - INFO - 
+2021-12-04 11:42:07,337 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.093 seconds
+2021-12-04 11:42:12,341 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:42:36,760 - sanic.root - INFO - Stopping worker [8024]
+2021-12-04 11:42:36,762 - sanic.root - INFO - Server Stopped
+2021-12-04 11:42:37,460 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:42:37,470 - sanic.root - INFO - Starting worker [8047]
+2021-12-04 11:42:39,211 - root - INFO - prepare config
+2021-12-04 11:42:39,211 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:42:39,249 - root - INFO - AdRemover
+2021-12-04 11:42:40,368 - sanic.access - INFO - 
+2021-12-04 11:42:40,369 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.158 seconds
+2021-12-04 11:42:45,373 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:43:15,286 - sanic.root - INFO - Stopping worker [8047]
+2021-12-04 11:43:15,288 - sanic.root - INFO - Server Stopped
+2021-12-04 11:43:15,911 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:43:15,917 - sanic.root - INFO - Starting worker [8068]
+2021-12-04 11:43:17,396 - root - INFO - prepare config
+2021-12-04 11:43:17,397 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:43:17,433 - root - INFO - AdRemover
+2021-12-04 11:43:18,587 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 44, in run
+    return Json({"results": l_result})
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/response.py", line 202, in json
+    dumps(body, **kwargs),
+TypeError: 2 is not JSON serializable
+2021-12-04 11:43:18,588 - sanic.access - INFO - 
+2021-12-04 11:43:18,588 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.192 seconds
+2021-12-04 11:43:23,592 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:43:38,652 - sanic.root - INFO - Stopping worker [8068]
+2021-12-04 11:43:38,653 - sanic.root - INFO - Server Stopped
+2021-12-04 11:43:39,237 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:43:39,243 - sanic.root - INFO - Starting worker [8094]
+2021-12-04 11:43:41,162 - root - INFO - prepare config
+2021-12-04 11:43:41,163 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:43:41,203 - root - INFO - AdRemover
+2021-12-04 11:43:42,346 - sanic.access - INFO - 
+2021-12-04 11:43:42,347 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.185 seconds
+2021-12-04 11:43:47,347 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:44:01,003 - sanic.root - INFO - Stopping worker [8094]
+2021-12-04 11:44:01,005 - sanic.root - INFO - Server Stopped
+2021-12-04 11:44:01,575 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 11:44:01,582 - sanic.root - INFO - Starting worker [8115]
+2021-12-04 11:44:04,636 - root - INFO - prepare config
+2021-12-04 11:44:04,637 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:44:04,692 - root - INFO - AdRemover
+2021-12-04 11:44:05,820 - sanic.access - INFO - 
+2021-12-04 11:44:05,820 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.184 seconds
+2021-12-04 11:44:10,824 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:45:27,493 - root - INFO - prepare config
+2021-12-04 11:45:27,493 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:45:27,494 - root - INFO - AdRemover
+2021-12-04 11:45:28,671 - sanic.access - INFO - 
+2021-12-04 11:45:28,672 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.179 seconds
+2021-12-04 11:45:33,676 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:45:59,289 - root - INFO - prepare config
+2021-12-04 11:45:59,290 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 11:45:59,290 - root - INFO - AdRemover
+2021-12-04 11:46:00,570 - sanic.access - INFO - 
+2021-12-04 11:46:00,571 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.282 seconds
+2021-12-04 11:46:05,573 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 11:52:33,613 - sanic.root - INFO - Stopping worker [8115]
+2021-12-04 11:52:33,615 - sanic.root - INFO - Server Stopped
+2021-12-04 12:02:09,390 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:02:09,400 - sanic.root - INFO - Starting worker [11194]
+2021-12-04 12:02:24,173 - root - INFO - prepare config
+2021-12-04 12:02:24,174 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:02:24,211 - root - INFO - AdRemover
+2021-12-04 12:02:25,340 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 44, in run
+    return Json({"results": l_result})
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/response.py", line 202, in json
+    dumps(body, **kwargs),
+TypeError: <Future at 0x11113f340 state=finished returned float> is not JSON serializable
+2021-12-04 12:02:25,342 - sanic.access - INFO - 
+2021-12-04 12:02:25,342 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.169 seconds
+2021-12-04 12:02:30,347 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:03:07,381 - sanic.root - INFO - Stopping worker [11194]
+2021-12-04 12:03:07,382 - sanic.root - INFO - Server Stopped
+2021-12-04 12:03:07,945 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:03:07,956 - sanic.root - INFO - Starting worker [11226]
+2021-12-04 12:03:10,153 - root - INFO - prepare config
+2021-12-04 12:03:10,154 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:10,191 - root - INFO - AdRemover
+2021-12-04 12:03:11,233 - sanic.access - INFO - 
+2021-12-04 12:03:11,234 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.081 seconds
+2021-12-04 12:03:16,238 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:03:36,039 - root - INFO - prepare config
+2021-12-04 12:03:36,039 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:36,040 - root - INFO - AdRemover
+2021-12-04 12:03:36,929 - sanic.access - INFO - 
+2021-12-04 12:03:36,930 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.891 seconds
+2021-12-04 12:03:38,570 - root - INFO - prepare config
+2021-12-04 12:03:38,570 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:38,571 - root - INFO - AdRemover
+2021-12-04 12:03:39,446 - sanic.access - INFO - 
+2021-12-04 12:03:39,447 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.877 seconds
+2021-12-04 12:03:40,461 - root - INFO - prepare config
+2021-12-04 12:03:40,462 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:40,464 - root - INFO - AdRemover
+2021-12-04 12:03:41,324 - sanic.access - INFO - 
+2021-12-04 12:03:41,325 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.864 seconds
+2021-12-04 12:03:42,438 - root - INFO - prepare config
+2021-12-04 12:03:42,439 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:42,440 - root - INFO - AdRemover
+2021-12-04 12:03:43,314 - sanic.access - INFO - 
+2021-12-04 12:03:43,315 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.877 seconds
+2021-12-04 12:03:44,656 - root - INFO - prepare config
+2021-12-04 12:03:44,656 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:44,657 - root - INFO - AdRemover
+2021-12-04 12:03:45,532 - sanic.access - INFO - 
+2021-12-04 12:03:45,532 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.877 seconds
+2021-12-04 12:03:46,696 - root - INFO - prepare config
+2021-12-04 12:03:46,696 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:46,697 - root - INFO - AdRemover
+2021-12-04 12:03:47,592 - sanic.access - INFO - 
+2021-12-04 12:03:47,592 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.896 seconds
+2021-12-04 12:03:48,823 - root - INFO - prepare config
+2021-12-04 12:03:48,823 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:48,825 - root - INFO - AdRemover
+2021-12-04 12:03:49,690 - sanic.access - INFO - 
+2021-12-04 12:03:49,690 - asyncio - WARNING - Executing <Task finished name='Task-9' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.867 seconds
+2021-12-04 12:03:50,650 - root - INFO - prepare config
+2021-12-04 12:03:50,650 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:50,651 - root - INFO - AdRemover
+2021-12-04 12:03:51,518 - sanic.access - INFO - 
+2021-12-04 12:03:51,519 - asyncio - WARNING - Executing <Task finished name='Task-10' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.869 seconds
+2021-12-04 12:03:52,608 - root - INFO - prepare config
+2021-12-04 12:03:52,608 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:52,609 - root - INFO - AdRemover
+2021-12-04 12:03:53,472 - sanic.access - INFO - 
+2021-12-04 12:03:53,473 - asyncio - WARNING - Executing <Task finished name='Task-11' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.865 seconds
+2021-12-04 12:03:54,473 - root - INFO - prepare config
+2021-12-04 12:03:54,473 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:03:54,474 - root - INFO - AdRemover
+2021-12-04 12:03:55,334 - sanic.access - INFO - 
+2021-12-04 12:03:55,335 - asyncio - WARNING - Executing <Task finished name='Task-12' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.862 seconds
+2021-12-04 12:04:00,340 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:05:44,427 - sanic.root - INFO - Stopping worker [11226]
+2021-12-04 12:05:44,428 - sanic.root - INFO - Server Stopped
+2021-12-04 12:05:45,009 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:05:45,017 - sanic.root - INFO - Starting worker [11333]
+2021-12-04 12:05:57,639 - root - INFO - prepare config
+2021-12-04 12:05:57,640 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:05:57,677 - root - INFO - AdRemover
+2021-12-04 12:05:58,599 - sanic.access - INFO - 
+2021-12-04 12:05:58,600 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.961 seconds
+2021-12-04 12:05:59,814 - root - INFO - prepare config
+2021-12-04 12:05:59,815 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:05:59,816 - root - INFO - AdRemover
+2021-12-04 12:06:00,871 - sanic.access - INFO - 
+2021-12-04 12:06:00,871 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.057 seconds
+2021-12-04 12:06:01,819 - root - INFO - prepare config
+2021-12-04 12:06:01,820 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:01,821 - root - INFO - AdRemover
+2021-12-04 12:06:02,704 - sanic.access - INFO - 
+2021-12-04 12:06:02,705 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.885 seconds
+2021-12-04 12:06:03,689 - root - INFO - prepare config
+2021-12-04 12:06:03,690 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:03,691 - root - INFO - AdRemover
+2021-12-04 12:06:04,557 - sanic.access - INFO - 
+2021-12-04 12:06:04,558 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.869 seconds
+2021-12-04 12:06:05,479 - root - INFO - prepare config
+2021-12-04 12:06:05,480 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:05,481 - root - INFO - AdRemover
+2021-12-04 12:06:06,386 - sanic.access - INFO - 
+2021-12-04 12:06:06,387 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.907 seconds
+2021-12-04 12:06:07,374 - root - INFO - prepare config
+2021-12-04 12:06:07,374 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:07,375 - root - INFO - AdRemover
+2021-12-04 12:06:08,298 - sanic.access - INFO - 
+2021-12-04 12:06:08,299 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.925 seconds
+2021-12-04 12:06:09,018 - root - INFO - prepare config
+2021-12-04 12:06:09,018 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:09,019 - root - INFO - AdRemover
+2021-12-04 12:06:10,002 - sanic.access - INFO - 
+2021-12-04 12:06:10,004 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.986 seconds
+2021-12-04 12:06:15,004 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:06:37,157 - sanic.root - INFO - Stopping worker [11333]
+2021-12-04 12:06:37,158 - sanic.root - INFO - Server Stopped
+2021-12-04 12:06:37,847 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:06:37,856 - sanic.root - INFO - Starting worker [11413]
+2021-12-04 12:06:41,261 - root - INFO - prepare config
+2021-12-04 12:06:41,261 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:41,304 - root - INFO - AdRemover
+2021-12-04 12:06:42,175 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 128, in sent_pipe
+    l_result = [{"live_sid": str(i), "pred": j, "post_message": str(k)} for i, j, k in zip(arr_id, arr_score, arr_post)]
+TypeError: iteration over a 0-d array
+2021-12-04 12:06:42,176 - sanic.access - INFO - 
+2021-12-04 12:06:42,176 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.915 seconds
+2021-12-04 12:06:43,264 - root - INFO - prepare config
+2021-12-04 12:06:43,264 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:43,266 - root - INFO - AdRemover
+2021-12-04 12:06:44,410 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 128, in sent_pipe
+    l_result = [{"live_sid": str(i), "pred": j, "post_message": str(k)} for i, j, k in zip(arr_id, arr_score, arr_post)]
+TypeError: iteration over a 0-d array
+2021-12-04 12:06:44,411 - sanic.access - INFO - 
+2021-12-04 12:06:44,411 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.148 seconds
+2021-12-04 12:06:47,068 - root - INFO - prepare config
+2021-12-04 12:06:47,069 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:47,069 - root - INFO - AdRemover
+2021-12-04 12:06:48,053 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 128, in sent_pipe
+    l_result = [{"live_sid": str(i), "pred": j, "post_message": str(k)} for i, j, k in zip(arr_id, arr_score, arr_post)]
+TypeError: iteration over a 0-d array
+2021-12-04 12:06:48,054 - sanic.access - INFO - 
+2021-12-04 12:06:48,055 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.987 seconds
+2021-12-04 12:06:53,060 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:06:54,468 - sanic.root - INFO - Stopping worker [11413]
+2021-12-04 12:06:54,470 - sanic.root - INFO - Server Stopped
+2021-12-04 12:06:54,971 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:06:54,981 - sanic.root - INFO - Starting worker [11453]
+2021-12-04 12:06:57,603 - root - INFO - prepare config
+2021-12-04 12:06:57,604 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:57,641 - root - INFO - AdRemover
+2021-12-04 12:06:58,561 - sanic.access - INFO - 
+2021-12-04 12:06:58,562 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.959 seconds
+2021-12-04 12:06:59,867 - root - INFO - prepare config
+2021-12-04 12:06:59,867 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:06:59,868 - root - INFO - AdRemover
+2021-12-04 12:07:00,748 - sanic.access - INFO - 
+2021-12-04 12:07:00,750 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.882 seconds
+2021-12-04 12:07:01,660 - root - INFO - prepare config
+2021-12-04 12:07:01,660 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:01,661 - root - INFO - AdRemover
+2021-12-04 12:07:02,512 - sanic.access - INFO - 
+2021-12-04 12:07:02,512 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.852 seconds
+2021-12-04 12:07:03,461 - root - INFO - prepare config
+2021-12-04 12:07:03,461 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:03,462 - root - INFO - AdRemover
+2021-12-04 12:07:04,328 - sanic.access - INFO - 
+2021-12-04 12:07:04,329 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.868 seconds
+2021-12-04 12:07:05,140 - root - INFO - prepare config
+2021-12-04 12:07:05,140 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:05,142 - root - INFO - AdRemover
+2021-12-04 12:07:06,004 - sanic.access - INFO - 
+2021-12-04 12:07:06,005 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.865 seconds
+2021-12-04 12:07:06,900 - root - INFO - prepare config
+2021-12-04 12:07:06,900 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:06,902 - root - INFO - AdRemover
+2021-12-04 12:07:07,805 - sanic.access - INFO - 
+2021-12-04 12:07:07,805 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.906 seconds
+2021-12-04 12:07:08,870 - root - INFO - prepare config
+2021-12-04 12:07:08,871 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:08,872 - root - INFO - AdRemover
+2021-12-04 12:07:09,762 - sanic.access - INFO - 
+2021-12-04 12:07:09,762 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.892 seconds
+2021-12-04 12:07:10,515 - root - INFO - prepare config
+2021-12-04 12:07:10,515 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:10,516 - root - INFO - AdRemover
+2021-12-04 12:07:11,387 - sanic.access - INFO - 
+2021-12-04 12:07:11,388 - asyncio - WARNING - Executing <Task finished name='Task-9' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.873 seconds
+2021-12-04 12:07:12,479 - root - INFO - prepare config
+2021-12-04 12:07:12,480 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:12,480 - root - INFO - AdRemover
+2021-12-04 12:07:13,349 - sanic.access - INFO - 
+2021-12-04 12:07:13,350 - asyncio - WARNING - Executing <Task finished name='Task-10' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.871 seconds
+2021-12-04 12:07:18,355 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:07:22,895 - sanic.root - INFO - Stopping worker [11453]
+2021-12-04 12:07:22,897 - sanic.root - INFO - Server Stopped
+2021-12-04 12:07:23,405 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:07:23,411 - sanic.root - INFO - Starting worker [11534]
+2021-12-04 12:07:26,829 - root - INFO - prepare config
+2021-12-04 12:07:26,829 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:26,867 - root - INFO - AdRemover
+2021-12-04 12:07:27,759 - sanic.access - INFO - 
+2021-12-04 12:07:27,759 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.930 seconds
+2021-12-04 12:07:28,758 - root - INFO - prepare config
+2021-12-04 12:07:28,759 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:28,760 - root - INFO - AdRemover
+2021-12-04 12:07:29,606 - sanic.access - INFO - 
+2021-12-04 12:07:29,607 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.849 seconds
+2021-12-04 12:07:30,717 - root - INFO - prepare config
+2021-12-04 12:07:30,717 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:30,718 - root - INFO - AdRemover
+2021-12-04 12:07:31,564 - sanic.access - INFO - 
+2021-12-04 12:07:31,564 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.848 seconds
+2021-12-04 12:07:32,566 - root - INFO - prepare config
+2021-12-04 12:07:32,566 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:32,567 - root - INFO - AdRemover
+2021-12-04 12:07:33,434 - sanic.access - INFO - 
+2021-12-04 12:07:33,435 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.869 seconds
+2021-12-04 12:07:34,318 - root - INFO - prepare config
+2021-12-04 12:07:34,318 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:34,319 - root - INFO - AdRemover
+2021-12-04 12:07:35,176 - sanic.access - INFO - 
+2021-12-04 12:07:35,177 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.859 seconds
+2021-12-04 12:07:35,969 - root - INFO - prepare config
+2021-12-04 12:07:35,969 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:07:35,970 - root - INFO - AdRemover
+2021-12-04 12:07:36,899 - sanic.access - INFO - 
+2021-12-04 12:07:36,899 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.931 seconds
+2021-12-04 12:07:41,905 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:07:42,218 - sanic.root - INFO - Stopping worker [11534]
+2021-12-04 12:07:42,221 - sanic.root - INFO - Server Stopped
+2021-12-04 12:07:42,756 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:07:42,763 - sanic.root - INFO - Starting worker [11594]
+2021-12-04 12:08:13,644 - sanic.root - INFO - Stopping worker [11594]
+2021-12-04 12:08:13,645 - sanic.root - INFO - Server Stopped
+2021-12-04 12:08:14,115 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:08:14,121 - sanic.root - INFO - Starting worker [11605]
+2021-12-04 12:08:17,319 - root - INFO - prepare config
+2021-12-04 12:08:17,319 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:17,357 - root - INFO - AdRemover
+2021-12-04 12:08:18,248 - sanic.access - INFO - 
+2021-12-04 12:08:18,249 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.930 seconds
+2021-12-04 12:08:19,968 - root - INFO - prepare config
+2021-12-04 12:08:19,968 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:19,969 - root - INFO - AdRemover
+2021-12-04 12:08:20,839 - sanic.access - INFO - 
+2021-12-04 12:08:20,840 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.872 seconds
+2021-12-04 12:08:22,226 - root - INFO - prepare config
+2021-12-04 12:08:22,227 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:22,228 - root - INFO - AdRemover
+2021-12-04 12:08:23,106 - sanic.access - INFO - 
+2021-12-04 12:08:23,107 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.880 seconds
+2021-12-04 12:08:24,395 - root - INFO - prepare config
+2021-12-04 12:08:24,395 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:24,396 - root - INFO - AdRemover
+2021-12-04 12:08:25,272 - sanic.access - INFO - 
+2021-12-04 12:08:25,273 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.878 seconds
+2021-12-04 12:08:26,296 - root - INFO - prepare config
+2021-12-04 12:08:26,296 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:26,297 - root - INFO - AdRemover
+2021-12-04 12:08:27,193 - sanic.access - INFO - 
+2021-12-04 12:08:27,194 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.897 seconds
+2021-12-04 12:08:28,254 - root - INFO - prepare config
+2021-12-04 12:08:28,255 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:28,256 - root - INFO - AdRemover
+2021-12-04 12:08:29,151 - sanic.access - INFO - 
+2021-12-04 12:08:29,152 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.898 seconds
+2021-12-04 12:08:29,990 - root - INFO - prepare config
+2021-12-04 12:08:29,990 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:29,991 - root - INFO - AdRemover
+2021-12-04 12:08:30,873 - sanic.access - INFO - 
+2021-12-04 12:08:30,873 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.883 seconds
+2021-12-04 12:08:31,702 - root - INFO - prepare config
+2021-12-04 12:08:31,702 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:31,703 - root - INFO - AdRemover
+2021-12-04 12:08:32,570 - sanic.access - INFO - 
+2021-12-04 12:08:32,571 - asyncio - WARNING - Executing <Task finished name='Task-9' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.869 seconds
+2021-12-04 12:08:33,360 - root - INFO - prepare config
+2021-12-04 12:08:33,360 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:33,361 - root - INFO - AdRemover
+2021-12-04 12:08:34,223 - sanic.access - INFO - 
+2021-12-04 12:08:34,224 - asyncio - WARNING - Executing <Task finished name='Task-10' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.864 seconds
+2021-12-04 12:08:35,072 - root - INFO - prepare config
+2021-12-04 12:08:35,072 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:35,073 - root - INFO - AdRemover
+2021-12-04 12:08:35,921 - sanic.access - INFO - 
+2021-12-04 12:08:35,921 - asyncio - WARNING - Executing <Task finished name='Task-11' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.850 seconds
+2021-12-04 12:08:36,715 - root - INFO - prepare config
+2021-12-04 12:08:36,716 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:36,717 - root - INFO - AdRemover
+2021-12-04 12:08:37,591 - sanic.access - INFO - 
+2021-12-04 12:08:37,592 - asyncio - WARNING - Executing <Task finished name='Task-12' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.877 seconds
+2021-12-04 12:08:38,284 - root - INFO - prepare config
+2021-12-04 12:08:38,284 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:38,286 - root - INFO - AdRemover
+2021-12-04 12:08:39,143 - sanic.access - INFO - 
+2021-12-04 12:08:39,144 - asyncio - WARNING - Executing <Task finished name='Task-13' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.860 seconds
+2021-12-04 12:08:39,870 - root - INFO - prepare config
+2021-12-04 12:08:39,870 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:39,871 - root - INFO - AdRemover
+2021-12-04 12:08:40,766 - sanic.access - INFO - 
+2021-12-04 12:08:40,767 - asyncio - WARNING - Executing <Task finished name='Task-14' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.897 seconds
+2021-12-04 12:08:41,374 - root - INFO - prepare config
+2021-12-04 12:08:41,374 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:08:41,375 - root - INFO - AdRemover
+2021-12-04 12:08:42,222 - sanic.access - INFO - 
+2021-12-04 12:08:42,222 - asyncio - WARNING - Executing <Task finished name='Task-15' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 0.849 seconds
+2021-12-04 12:08:47,227 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:09:33,103 - root - INFO - prepare config
+2021-12-04 12:09:33,104 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:09:33,105 - root - INFO - AdRemover
+2021-12-04 12:09:34,174 - sanic.access - INFO - 
+2021-12-04 12:09:34,175 - asyncio - WARNING - Executing <Task finished name='Task-16' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 1.071 seconds
+2021-12-04 12:09:39,176 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:10:14,953 - root - INFO - prepare config
+2021-12-04 12:10:14,954 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:10:14,956 - root - INFO - AdRemover
+2021-12-04 12:10:18,308 - sanic.access - INFO - 
+2021-12-04 12:10:18,319 - asyncio - WARNING - Executing <Task finished name='Task-17' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 3.368 seconds
+2021-12-04 12:10:23,312 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:11:14,457 - root - INFO - prepare config
+2021-12-04 12:11:14,457 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:11:14,462 - root - INFO - AdRemover
+2021-12-04 12:11:22,070 - sanic.access - INFO - 
+2021-12-04 12:11:22,075 - asyncio - WARNING - Executing <Task finished name='Task-18' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 7.625 seconds
+2021-12-04 12:11:27,074 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:12:14,526 - sanic.root - INFO - Stopping worker [11605]
+2021-12-04 12:12:14,527 - sanic.root - INFO - Server Stopped
+2021-12-04 12:12:15,053 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:12:15,063 - sanic.root - INFO - Starting worker [11780]
+2021-12-04 12:12:26,090 - root - INFO - prepare config
+2021-12-04 12:12:26,090 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:12:26,132 - root - INFO - AdRemover
+2021-12-04 12:12:33,325 - sanic.access - INFO - 
+2021-12-04 12:12:33,330 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 7.247 seconds
+2021-12-04 12:12:38,327 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:13:16,590 - root - INFO - prepare config
+2021-12-04 12:13:16,591 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:13:16,601 - root - INFO - AdRemover
+2021-12-04 12:13:27,377 - sanic.access - INFO - 
+2021-12-04 12:13:27,383 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.830 seconds
+2021-12-04 12:13:32,381 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:13:37,564 - root - INFO - prepare config
+2021-12-04 12:13:37,565 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:13:37,572 - root - INFO - AdRemover
+2021-12-04 12:13:48,273 - sanic.access - INFO - 
+2021-12-04 12:13:48,284 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.729 seconds
+2021-12-04 12:13:51,014 - root - INFO - prepare config
+2021-12-04 12:13:51,014 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:13:51,022 - root - INFO - AdRemover
+2021-12-04 12:14:01,601 - sanic.access - INFO - 
+2021-12-04 12:14:01,607 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.602 seconds
+2021-12-04 12:14:03,858 - root - INFO - prepare config
+2021-12-04 12:14:03,859 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:14:03,868 - root - INFO - AdRemover
+2021-12-04 12:14:14,312 - sanic.access - INFO - 
+2021-12-04 12:14:14,331 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.481 seconds
+2021-12-04 12:14:16,841 - root - INFO - prepare config
+2021-12-04 12:14:16,841 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:14:16,849 - root - INFO - AdRemover
+2021-12-04 12:14:27,390 - sanic.access - INFO - 
+2021-12-04 12:14:27,402 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.568 seconds
+2021-12-04 12:14:30,089 - root - INFO - prepare config
+2021-12-04 12:14:30,089 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:14:30,096 - root - INFO - AdRemover
+2021-12-04 12:14:40,581 - sanic.access - INFO - 
+2021-12-04 12:14:40,588 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.506 seconds
+2021-12-04 12:14:45,584 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:15:44,221 - sanic.root - INFO - Stopping worker [11780]
+2021-12-04 12:15:44,223 - sanic.root - INFO - Server Stopped
+2021-12-04 12:15:44,819 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:15:44,830 - sanic.root - INFO - Starting worker [11895]
+2021-12-04 12:15:47,300 - root - INFO - prepare config
+2021-12-04 12:15:47,301 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:15:47,344 - root - INFO - AdRemover
+2021-12-04 12:15:55,891 - sanic.access - INFO - 
+2021-12-04 12:15:55,899 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.609 seconds
+2021-12-04 12:16:00,894 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:16:12,775 - root - INFO - prepare config
+2021-12-04 12:16:12,776 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:16:12,783 - root - INFO - AdRemover
+2021-12-04 12:16:21,531 - sanic.access - INFO - 
+2021-12-04 12:16:21,539 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.791 seconds
+2021-12-04 12:16:25,636 - root - INFO - prepare config
+2021-12-04 12:16:25,637 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:16:25,645 - root - INFO - AdRemover
+2021-12-04 12:16:34,280 - sanic.access - INFO - 
+2021-12-04 12:16:34,311 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.686 seconds
+2021-12-04 12:16:39,284 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:17:20,462 - sanic.root - INFO - Stopping worker [11895]
+2021-12-04 12:17:20,464 - sanic.root - INFO - Server Stopped
+2021-12-04 12:17:20,984 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:17:20,993 - sanic.root - INFO - Starting worker [11950]
+2021-12-04 12:17:24,427 - root - INFO - prepare config
+2021-12-04 12:17:24,427 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:17:24,471 - root - INFO - AdRemover
+2021-12-04 12:17:35,353 - sanic.access - INFO - 
+2021-12-04 12:17:35,362 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 10.945 seconds
+2021-12-04 12:17:40,358 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:17:45,845 - sanic.root - INFO - Stopping worker [11950]
+2021-12-04 12:17:45,847 - sanic.root - INFO - Server Stopped
+2021-12-04 12:17:46,499 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:17:46,505 - sanic.root - INFO - Starting worker [11979]
+2021-12-04 12:17:47,550 - root - INFO - prepare config
+2021-12-04 12:17:47,551 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:17:47,597 - root - INFO - AdRemover
+2021-12-04 12:17:58,675 - sanic.access - INFO - 
+2021-12-04 12:17:58,686 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 11.146 seconds
+2021-12-04 12:18:03,680 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:18:08,180 - sanic.root - INFO - Stopping worker [11979]
+2021-12-04 12:18:08,182 - sanic.root - INFO - Server Stopped
+2021-12-04 12:18:08,703 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:18:08,710 - sanic.root - INFO - Starting worker [12004]
+2021-12-04 12:18:49,745 - sanic.root - INFO - Stopping worker [12004]
+2021-12-04 12:18:49,746 - sanic.root - INFO - Server Stopped
+2021-12-04 12:18:50,264 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:18:50,273 - sanic.root - INFO - Starting worker [12014]
+2021-12-04 12:18:55,843 - root - INFO - prepare config
+2021-12-04 12:18:55,844 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:18:55,889 - root - INFO - AdRemover
+2021-12-04 12:19:04,759 - sanic.access - INFO - 
+2021-12-04 12:19:04,768 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.936 seconds
+2021-12-04 12:19:09,764 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:19:31,315 - sanic.root - INFO - Stopping worker [12014]
+2021-12-04 12:19:31,317 - sanic.root - INFO - Server Stopped
+2021-12-04 12:19:31,967 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:19:31,974 - sanic.root - INFO - Starting worker [12045]
+2021-12-04 12:19:33,939 - root - INFO - prepare config
+2021-12-04 12:19:33,940 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:19:33,984 - root - INFO - AdRemover
+2021-12-04 12:19:42,169 - sanic.access - INFO - 
+2021-12-04 12:19:42,176 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.247 seconds
+2021-12-04 12:19:47,174 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:20:01,746 - sanic.root - INFO - Stopping worker [12045]
+2021-12-04 12:20:01,747 - sanic.root - INFO - Server Stopped
+2021-12-04 12:20:02,316 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:20:02,323 - sanic.root - INFO - Starting worker [12072]
+2021-12-04 12:20:09,907 - sanic.root - INFO - Stopping worker [12072]
+2021-12-04 12:20:09,909 - sanic.root - INFO - Server Stopped
+2021-12-04 12:20:10,400 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:20:10,406 - sanic.root - INFO - Starting worker [12083]
+2021-12-04 12:20:13,634 - root - INFO - prepare config
+2021-12-04 12:20:13,634 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:20:13,680 - root - INFO - AdRemover
+2021-12-04 12:20:21,773 - sanic.access - INFO - 
+2021-12-04 12:20:21,781 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.158 seconds
+2021-12-04 12:20:26,779 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:21:31,943 - sanic.root - INFO - Stopping worker [12083]
+2021-12-04 12:21:31,945 - sanic.root - INFO - Server Stopped
+2021-12-04 12:21:32,804 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:21:32,817 - sanic.root - INFO - Starting worker [12111]
+2021-12-04 12:21:47,091 - root - INFO - prepare config
+2021-12-04 12:21:47,092 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:21:47,147 - root - INFO - AdRemover
+2021-12-04 12:21:53,533 - sanic.access - INFO - 
+2021-12-04 12:21:53,543 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.470 seconds
+2021-12-04 12:21:58,538 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:22:46,921 - sanic.root - INFO - Stopping worker [12111]
+2021-12-04 12:22:46,923 - sanic.root - INFO - Server Stopped
+2021-12-04 12:22:47,440 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:22:47,449 - sanic.root - INFO - Starting worker [12140]
+2021-12-04 12:22:51,269 - root - INFO - prepare config
+2021-12-04 12:22:51,269 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:22:51,318 - root - INFO - AdRemover
+2021-12-04 12:22:58,877 - sanic.access - INFO - 
+2021-12-04 12:22:58,887 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 7.632 seconds
+2021-12-04 12:23:03,882 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:27:03,223 - sanic.root - INFO - Stopping worker [12140]
+2021-12-04 12:27:03,224 - sanic.root - INFO - Server Stopped
+2021-12-04 12:27:03,860 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:27:03,867 - sanic.root - INFO - Starting worker [12188]
+2021-12-04 12:27:07,707 - root - INFO - prepare config
+2021-12-04 12:27:07,708 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:27:07,756 - root - INFO - AdRemover
+2021-12-04 12:27:10,006 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 135, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 114, in regex_sentiment
+    l_sen_out = p.map(run_parallel, arr_)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 537, in _handle_tasks
+    put(task)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'regex_sentiment.<locals>.run_parallel'
+2021-12-04 12:27:10,009 - sanic.access - INFO - 
+2021-12-04 12:27:10,010 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 2.316 seconds
+2021-12-04 12:27:15,012 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:29:03,766 - sanic.root - INFO - Stopping worker [12188]
+2021-12-04 12:29:03,769 - sanic.root - INFO - Server Stopped
+2021-12-04 12:29:04,423 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:29:04,434 - sanic.root - INFO - Starting worker [12235]
+2021-12-04 12:29:10,138 - root - INFO - prepare config
+2021-12-04 12:29:10,139 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:29:10,186 - root - INFO - AdRemover
+2021-12-04 12:29:12,443 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 138, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 114, in regex_sentiment
+    l_sen_out = p.map(run_parallel, arr_)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 537, in _handle_tasks
+    put(task)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'regex_sentiment.<locals>.run_parallel'
+2021-12-04 12:29:12,446 - sanic.access - INFO - 
+2021-12-04 12:29:12,447 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 2.322 seconds
+2021-12-04 12:29:17,448 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:31:17,523 - sanic.root - INFO - Stopping worker [12235]
+2021-12-04 12:31:17,525 - sanic.root - INFO - Server Stopped
+2021-12-04 12:31:18,306 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:31:18,314 - sanic.root - INFO - Starting worker [12272]
+2021-12-04 12:31:25,031 - root - INFO - prepare config
+2021-12-04 12:31:25,031 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:31:25,080 - root - INFO - AdRemover
+2021-12-04 12:31:27,440 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 138, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 114, in regex_sentiment
+    l_sen_out = p.map(calculate_score, arr_)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 537, in _handle_tasks
+    put(task)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'regex_sentiment.<locals>.calculate_score'
+2021-12-04 12:31:27,444 - sanic.access - INFO - 
+2021-12-04 12:31:27,445 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 2.427 seconds
+2021-12-04 12:31:32,444 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:33:49,499 - sanic.root - INFO - Stopping worker [12272]
+2021-12-04 12:33:49,501 - sanic.root - INFO - Server Stopped
+2021-12-04 12:33:50,372 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:33:50,382 - sanic.root - INFO - Starting worker [12314]
+2021-12-04 12:33:54,346 - root - INFO - prepare config
+2021-12-04 12:33:54,346 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:33:54,395 - root - INFO - AdRemover
+2021-12-04 12:33:56,664 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 138, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 114, in regex_sentiment
+    l_sen_out = p.map(run_parallel, arr_)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/pool.py", line 537, in _handle_tasks
+    put(task)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/multiprocessing/reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+AttributeError: Can't pickle local object 'regex_sentiment.<locals>.run_parallel'
+2021-12-04 12:33:56,665 - sanic.access - INFO - 
+2021-12-04 12:33:56,666 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 2.334 seconds
+2021-12-04 12:34:01,667 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:35:03,497 - sanic.root - INFO - Stopping worker [12314]
+2021-12-04 12:35:03,499 - sanic.root - INFO - Server Stopped
+2021-12-04 12:35:04,229 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:35:04,241 - sanic.root - INFO - Starting worker [12361]
+2021-12-04 12:35:41,036 - sanic.root - INFO - Stopping worker [12361]
+2021-12-04 12:35:41,038 - sanic.root - INFO - Server Stopped
+2021-12-04 12:35:41,517 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:35:41,524 - sanic.root - INFO - Starting worker [12372]
+2021-12-04 12:35:45,392 - root - INFO - prepare config
+2021-12-04 12:35:45,393 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:35:45,443 - root - INFO - AdRemover
+2021-12-04 12:35:45,445 - sanic.root - ERROR - Exception occurred while handling uri: 'http://localhost:8964/run'
+Traceback (most recent call last):
+  File "/Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py", line 938, in handle_request
+    response = await response
+  File "main.py", line 42, in run
+    l_result = sent_pipe(l_regex, p_data)
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 127, in sent_pipe
+    arr_score = np.array(regex_sentiment(arr_post, regex_config))
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 106, in regex_sentiment
+    l_sen_out = [calculate_score(arr_, sent) for sent in arr_]
+  File "/Users/user/dev/Github/Github_repo/DSentimentModel/src/scripts/model.py", line 106, in <listcomp>
+    l_sen_out = [calculate_score(arr_, sent) for sent in arr_]
+TypeError: calculate_score() takes 1 positional argument but 2 were given
+2021-12-04 12:35:45,446 - sanic.access - INFO - 
+2021-12-04 12:35:50,449 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:36:30,694 - sanic.root - INFO - Stopping worker [12372]
+2021-12-04 12:36:30,695 - sanic.root - INFO - Server Stopped
+2021-12-04 12:36:31,209 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:36:31,216 - sanic.root - INFO - Starting worker [12389]
+2021-12-04 12:36:40,068 - root - INFO - prepare config
+2021-12-04 12:36:40,068 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:36:40,115 - root - INFO - AdRemover
+2021-12-04 12:36:44,270 - sanic.access - INFO - 
+2021-12-04 12:36:44,276 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 4.222 seconds
+2021-12-04 12:36:49,274 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:37:02,116 - sanic.root - INFO - Stopping worker [12389]
+2021-12-04 12:37:02,118 - sanic.root - INFO - Server Stopped
+2021-12-04 12:37:02,667 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:37:02,673 - sanic.root - INFO - Starting worker [12408]
+2021-12-04 12:37:05,283 - root - INFO - prepare config
+2021-12-04 12:37:05,284 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:37:05,331 - root - INFO - AdRemover
+2021-12-04 12:37:10,900 - sanic.access - INFO - 
+2021-12-04 12:37:10,906 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 5.636 seconds
+2021-12-04 12:37:15,904 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:39:33,316 - root - INFO - prepare config
+2021-12-04 12:39:33,319 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:39:33,337 - root - INFO - AdRemover
+2021-12-04 12:39:42,355 - sanic.access - INFO - 
+2021-12-04 12:39:42,364 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.071 seconds
+2021-12-04 12:39:47,357 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:40:03,472 - root - INFO - prepare config
+2021-12-04 12:40:03,472 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:40:03,490 - root - INFO - AdRemover
+2021-12-04 12:40:12,524 - sanic.access - INFO - 
+2021-12-04 12:40:12,536 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.086 seconds
+2021-12-04 12:40:17,210 - root - INFO - prepare config
+2021-12-04 12:40:17,210 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:40:17,227 - root - INFO - AdRemover
+2021-12-04 12:40:26,178 - sanic.access - INFO - 
+2021-12-04 12:40:26,189 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 8.999 seconds
+2021-12-04 12:40:30,908 - root - INFO - prepare config
+2021-12-04 12:40:30,910 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:40:30,928 - root - INFO - AdRemover
+2021-12-04 12:40:39,961 - sanic.access - INFO - 
+2021-12-04 12:40:39,971 - asyncio - WARNING - Executing <Task finished name='Task-6' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.084 seconds
+2021-12-04 12:40:44,966 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:40:51,933 - root - INFO - prepare config
+2021-12-04 12:40:51,934 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:40:51,952 - root - INFO - AdRemover
+2021-12-04 12:41:00,957 - sanic.access - INFO - 
+2021-12-04 12:41:00,965 - asyncio - WARNING - Executing <Task finished name='Task-7' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.051 seconds
+2021-12-04 12:41:05,050 - root - INFO - prepare config
+2021-12-04 12:41:05,050 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:41:05,069 - root - INFO - AdRemover
+2021-12-04 12:41:14,370 - sanic.access - INFO - 
+2021-12-04 12:41:14,379 - asyncio - WARNING - Executing <Task finished name='Task-8' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.348 seconds
+2021-12-04 12:41:14,476 - root - INFO - prepare config
+2021-12-04 12:41:14,479 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:41:14,499 - root - INFO - AdRemover
+2021-12-04 12:41:23,679 - sanic.access - INFO - 
+2021-12-04 12:41:23,688 - asyncio - WARNING - Executing <Task finished name='Task-9' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.231 seconds
+2021-12-04 12:41:23,694 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:41:23,717 - root - INFO - prepare config
+2021-12-04 12:41:23,717 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:41:23,734 - root - INFO - AdRemover
+2021-12-04 12:41:32,992 - sanic.access - INFO - 
+2021-12-04 12:41:33,000 - asyncio - WARNING - Executing <Task finished name='Task-10' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.306 seconds
+2021-12-04 12:41:33,020 - root - INFO - prepare config
+2021-12-04 12:41:33,020 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:41:33,033 - root - INFO - AdRemover
+2021-12-04 12:41:42,144 - sanic.access - INFO - 
+2021-12-04 12:41:42,158 - asyncio - WARNING - Executing <Task finished name='Task-11' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 9.158 seconds
+2021-12-04 12:41:42,160 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:41:42,161 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:41:45,512 - sanic.root - INFO - Stopping worker [12408]
+2021-12-04 12:41:45,619 - sanic.root - INFO - Server Stopped
+2021-12-04 12:41:46,936 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:41:46,957 - sanic.root - INFO - Starting worker [12474]
+2021-12-04 12:41:53,146 - root - INFO - prepare config
+2021-12-04 12:41:53,147 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:41:53,237 - root - INFO - AdRemover
+2021-12-04 12:41:59,591 - sanic.access - INFO - 
+2021-12-04 12:41:59,600 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.482 seconds
+2021-12-04 12:42:04,594 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:44:18,185 - root - INFO - prepare config
+2021-12-04 12:44:18,186 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:44:18,202 - root - INFO - AdRemover
+2021-12-04 12:44:24,726 - sanic.access - INFO - 
+2021-12-04 12:44:24,734 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.572 seconds
+2021-12-04 12:44:29,706 - root - INFO - prepare config
+2021-12-04 12:44:29,706 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:44:29,737 - root - INFO - AdRemover
+2021-12-04 12:44:36,511 - sanic.access - INFO - 
+2021-12-04 12:44:36,520 - asyncio - WARNING - Executing <Task finished name='Task-4' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.848 seconds
+2021-12-04 12:44:41,516 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:44:42,031 - root - INFO - prepare config
+2021-12-04 12:44:42,031 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:44:42,047 - root - INFO - AdRemover
+2021-12-04 12:44:48,702 - sanic.access - INFO - 
+2021-12-04 12:44:48,710 - asyncio - WARNING - Executing <Task finished name='Task-5' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.700 seconds
+2021-12-04 12:44:53,707 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:45:27,363 - sanic.root - INFO - Stopping worker [12474]
+2021-12-04 12:45:27,364 - sanic.root - INFO - Server Stopped
+2021-12-04 12:45:28,100 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:45:28,108 - sanic.root - INFO - Starting worker [12508]
+2021-12-04 12:45:32,434 - root - INFO - prepare config
+2021-12-04 12:45:32,436 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:45:32,507 - root - INFO - AdRemover
+2021-12-04 12:45:39,079 - sanic.access - INFO - 
+2021-12-04 12:45:39,087 - asyncio - WARNING - Executing <Task finished name='Task-2' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.675 seconds
+2021-12-04 12:45:44,083 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:45:45,040 - root - INFO - prepare config
+2021-12-04 12:45:45,041 - root - INFO - l_txt: ['./config/emoji_neg.txt', './config/emoji_pos.txt', './config/negative.txt', './config/neutral.txt', './config/positive.txt']
+2021-12-04 12:45:45,059 - root - INFO - AdRemover
+2021-12-04 12:45:51,675 - sanic.access - INFO - 
+2021-12-04 12:45:51,684 - asyncio - WARNING - Executing <Task finished name='Task-3' coro=<Sanic.handle_request() done, defined at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/app.py:882> result=None created at /Users/user/dev/env/CAS/lib/python3.8/site-packages/sanic/server.py:459> took 6.666 seconds
+2021-12-04 12:45:56,681 - sanic.root - DEBUG - KeepAlive Timeout. Closing connection.
+2021-12-04 12:50:40,112 - sanic.root - INFO - Stopping worker [12508]
+2021-12-04 12:50:40,114 - sanic.root - INFO - Server Stopped
+2021-12-04 12:50:40,920 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 12:50:40,926 - sanic.root - INFO - Starting worker [12538]
+2021-12-04 15:15:33,223 - sanic.root - INFO - Stopping worker [12538]
+2021-12-04 15:15:33,225 - sanic.root - INFO - Server Stopped
+2021-12-04 15:15:33,953 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 15:15:33,965 - sanic.root - INFO - Starting worker [12978]
+2021-12-04 15:16:49,240 - sanic.root - INFO - Stopping worker [12978]
+2021-12-04 15:16:49,241 - sanic.root - INFO - Server Stopped
+2021-12-04 15:16:49,627 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 15:16:49,636 - sanic.root - INFO - Starting worker [12991]
+2021-12-04 15:19:28,231 - sanic.root - INFO - Stopping worker [12991]
+2021-12-04 15:19:28,233 - sanic.root - INFO - Server Stopped
+2021-12-04 15:19:28,688 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 15:19:28,698 - sanic.root - INFO - Starting worker [13019]
+2021-12-04 15:20:04,707 - sanic.root - INFO - Stopping worker [13019]
+2021-12-04 15:20:04,709 - sanic.root - INFO - Server Stopped
+2021-12-04 15:20:05,084 - sanic.root - INFO - Goin' Fast @ http://0.0.0.0:8964
+2021-12-04 15:20:05,092 - sanic.root - INFO - Starting worker [13031]
+2021-12-04 15:22:26,763 - sanic.root - INFO - Stopping worker [13031]
+2021-12-04 15:22:26,766 - sanic.root - INFO - Server Stopped

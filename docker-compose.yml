@@ -6,5 +6,7 @@ services:
     build: .
     ports:
       - 721:721
+    environment:
+      SANIC_WORKERS: 4
     restart: always
     shm_size: 1G

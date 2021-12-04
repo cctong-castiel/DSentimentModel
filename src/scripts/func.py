@@ -6,13 +6,13 @@ import glob
 import regex as re
 
 
-def prepare_config():
+def get_config():
 
     """To prepare emoji and sentiment words config"""
 
     # a list of config.txt
     l_txt = sorted(glob.glob("./config/*.txt"))
-    print(f"l_txt: {l_txt}")
+    logging.info(f"l_txt: {l_txt}")
 
     l_config = []
     for index, path in enumerate(l_txt):
