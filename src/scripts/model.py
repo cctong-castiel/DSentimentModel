@@ -27,21 +27,25 @@ def regex_sentiment(arr_, l_regex):
 
     """to run a regex sentiment on each sentences and determine sentiment"""
 
-    def decide_sentiment(arr_sen, xi=0.05):
+    def decide_sentiment(arr_sen, length, xi=0.05):
 
         """To determine sentiment using arr_sen
             l_regex = [emoji_neg, emoji_pos, negative, neutral, positive]"""
 
-        pos = arr_sen[1] + arr_sen[4]
-        neg = arr_sen[0] + arr_sen[2]
+        nu, delta, omega = 1.05, 1.2, 100
+
+        pos = delta * arr_sen[1] + nu * arr_sen[4]
+        neg = delta * arr_sen[0] + nu * arr_sen[2]
         neu = arr_sen[3]
 
         # logging.info(f"emoji_neg: {arr_sen[0]}, emoji_pos: {arr_sen[1]}, neg: {arr_sen[2]}, neu: {arr_sen[3]}, pos: {arr_sen[4]}")
-        score = log1p(pos + 0.5) - log1p(neg + 0.5)
+        score = (log1p(pos + 0.5) - log1p(neg + 0.5)) / (length + 1) * omega
         if score > 0 and neu > 0:
-            score = score - neu * xi
+            score -= neu * xi
+            score = max(score, 0)
         elif score < 0 and neu > 0:
-            score = score + neu * xi
+            score += neu * xi
+            score = min(score, 0)
 
         yield score
 
@@ -60,7 +64,8 @@ def regex_sentiment(arr_, l_regex):
             cnt = len(re.findall(sen, sent))
             arr_sen[index] = cnt
 
-        sen_value = next(decide_sentiment(arr_sen))
+        length = len(sent)
+        sen_value = next(decide_sentiment(arr_sen, length))
         # logging.info(f"sen_value: {sen_value}")
 
         return sen_value

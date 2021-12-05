@@ -51,3 +51,6 @@ Stop a docker host server
 ```
 docker-compose down
 ```
+
+Remark
+- need to cate cantonese negation(eg. 不聪明, 不過份)
