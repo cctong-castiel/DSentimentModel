@@ -5,7 +5,7 @@ services:
     image: dsen
     build: .
     ports:
-      - 721:721
+      - 8001:721
     environment:
       SANIC_WORKERS: 4
     restart: always
